@@ -23,7 +23,7 @@ class Welcome extends React.Component {
       .then((response) => {
         // handle success
 
-        console.log(response.data);
+        console.log(response.data,66666);
 
         let tempData = response.data;
 
